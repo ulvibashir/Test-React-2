@@ -5,8 +5,10 @@ function ToDoTask() {
     const [toDoData, setToDoData] = useState([]);
     const [doneData, setDoneData] = useState([]);
 
-
-
+    function printToConsole(){
+    console.log('Hello');
+    }
+    printToConsole()
     const OnChangeHandler = (e) => {
         setInputValue(e.target.value);
     }

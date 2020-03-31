@@ -6,6 +6,7 @@ function API() {
         data: [],
         total_pages: 0
     });
+    
     let buttons = [];
     const getData = async (url) => {
       const response = await fetch(url);
